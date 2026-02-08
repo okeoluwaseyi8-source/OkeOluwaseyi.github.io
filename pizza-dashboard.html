@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Pizza Sales Performance Dashboard</title>
+  <meta charset="UTF-8">
+  <title>Pizza Sales Performance Dashboard (Power BI)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; }
+    .container { max-width: 1200px; margin: 0 auto; padding: 2rem 1rem; }
+    .powerbi-container { position: relative; width: 100%; aspect-ratio: 16 / 9; }
+    .powerbi-container iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+  </style>
 </head>
 <body>
 
-<h1>Pizza Sales Performance Dashboard (Power BI)</h1>
+  <div class="container">
+    <h1>Pizza Sales Performance Dashboard (Power BI)</h1>
+    <p>Power BI dashboard analyzing pizza sales trends, order patterns, and product performance.</p>
 
-<p>
-Power BI dashboard analyzing pizza sales trends, order patterns,
-and product performance.
-</p>
-
-<img src="images/sales_analysis_dashboard.PNG" style="width:100%;">
-<br><br>
-<img src="images/performance_dashboard.PNG" style="width:100%;">
+    <div class="powerbi-container">
+      <iframe
+        title="new prac"
+        src="https://app.powerbi.com/view?r=eyJrIjoiYmM3OTczY2EtYmJiZi00NTZkLWI2NTctMTdhN2UwZWRkMzZmIiwidCI6ImNlMGE3ZTAxLWYwZDMtNDQwOS04YThlLWM0Yjc0Nzc5OTMwNCJ9"
+        allowfullscreen="true">
+      </iframe>
+    </div>
+  </div>
 
 </body>
 </html>
